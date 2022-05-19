@@ -1,0 +1,70 @@
+
+.overallContainer{
+    width: 97%;
+    height: auto;
+}
+.homeContainer{
+    width : 103%;
+    height : auto;
+    margin-top: 5px;
+    /* border-bottom: 2px solid rgb(20, 112, 182) ; */
+}
+
+.homeMain{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 40%;
+
+}
+.homeMessage{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ flex : 2;
+
+}
+.homeAvatar{
+ display : flex;
+ flex : 2;
+ align-items: center;
+ justify-content: center;
+}
+.homeInfo{
+    color :rgb(20, 112, 182);
+    font-family: 'Epilogue', sans-serif;
+    font-size: 45px;
+    margin-left: 45px;
+    
+}
+
+.homeImage{
+    
+    width  : 800px;
+    height : 600px;
+}
+.homeGetStartedButton{
+    border-radius:20px;
+    background-color : rgb(20, 112, 182);
+    color : white;
+    font-weight: 700;
+    font-family: 'Epilogue', sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 35px 14px 35px;
+    margin-top : 20px;
+}
+.homeGetStartedButton:hover{
+    border-radius:20px;
+    background-color : rgb(240, 47, 105);
+    color : white;
+    font-weight: 700;
+    font-family: 'Epilogue', sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 35px 14px 35px;
+    margin-top : 20px;
+}
